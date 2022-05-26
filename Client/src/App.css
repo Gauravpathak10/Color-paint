@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Canva-App {
+  display: flex;
+  margin: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px;
+  margin: 4px;
+  font-size: 13px;
+  background-color: lightgrey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav button {
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgb(0, 174, 255);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.Canva-App select {
+  margin: 5px;
+  width: 200px;
+  padding: 7px;
+}
+
+.Canva-App button {
+  padding: 8px;
+  background-color: rgb(255, 153, 0);
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+}
